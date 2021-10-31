@@ -1,0 +1,25 @@
+smart contract 개발 실습 환경 세팅
+
+<Installation list>
+
+1. Git 설치 
+https://git-scm.com 
+
+2. Node.js설치 // 노드 버전 확인. 8이상이면 상관 없음
+https://nodejs.org/ko/download/ 
+
+3. Geth 설치 
+https://geth.ethereum.org/downloads/ 
+
+// Geth 설치 항목 및 순서 
+https://steemit.com/geth/@bluezoid/geth
+                    
+3-2. cmd창에 입력: git clone https://github.com/ethereum/go-ethereum.git
+
+4.Ganache 설치 
+https://www.trufflesuite.com/ganache 
+
+5.Ganache-cli 설치  
+npm –g install ganache-cli // 가나슈 클리 설치
+
+6.(Vim 설치)
