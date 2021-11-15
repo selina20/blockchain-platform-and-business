@@ -1,0 +1,52 @@
+계정 생성
+
+// 새 계정 생성 (패스워드 잘 기억할 것)
+personal.newAccount("pass0") 
+personal.newAccount("yumin") 
+
+// 계정 확인
+eth.accounts 
+
+eth.accounts[0]
+eth.accounts[1]
+
+eth.coinbase
+
+miner.setEtherbase(eth.accounts[0])
+
+eth.coinbase
+
+eth.getBalance(eth.accounts[0])
+
+eth.getBalance(eth.accounts[1])
+
+eth.blockNumber
+
+//채굴 시작
+
+miner.start(1)
+eth.mining
+eth.hashrate
+eth.blockNumber
+eth.blockNumber
+eth.blockNumber
+miner.stop()
+eth.mining
+eth.hashrate
+eth.blockNumber
+
+eth.getBalanace(eth.coinbase)
+eth.getBalanace(eth.accounts[0])
+eth.getBalanace(eth.accounts[1])
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+
+
+eth.sendTransaction({from:eth.accounts[0], to:eth.accounts[1], value:web3.toWei(10,"ether")})
+personal.unlockAccount(eth.accounts[0], "pass0")
+
+
+거래 ID 잘 보관
+0x58d901f8fa7777714d8d8bb696246a5b96503f3d00f45892171b50383d047b70
+
+eth.getTransaction("0x58d901f8fa7777714d8d8bb696246a5b96503f3d00f45892171b50383d047b70")
+
